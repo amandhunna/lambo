@@ -40,10 +40,10 @@ public class Istpage extends Application
     GridPane grid = new GridPane();
     grid.setPadding(new Insets(10, 10, 10, 10));
     //grid.setGridLinesVisible(true);
-     ImageView cloverbg = new ImageView(new Image(Istpage.class.getResourceAsStream("lambo.jpg")));
+     ImageView bg = new ImageView(new Image(Istpage.class.getResourceAsStream("images.jpg")));
   
     // new Image(Istpage.class.getResourceAsStream("icon.jpg")));
-     grid.add(cloverbg, 0, 0, 1, 2); 
+     grid.add(bg, 0, 0);//, 1, 2); 
      return grid;
 }
     public static void main(String[] args) {

@@ -16,11 +16,11 @@ final static String com_add="\t\tCOMPANY ADDRESS";
 public final static String addd1="TechSys,";
 public final static String addd2="support@tech.in";
 cust_detail_form(GridPane grid){
-Text clover = new Text(cloverleaf);
+Text clover = new Text("company title");
 clover.setFont(Font.font("Tahoma", FontWeight.NORMAL, 40));
     grid.add(clover, 3, 0, 5, 5);
 
-Text clover_add = new Text(cloverleaf_add);
+Text clover_add = new Text(com_add);
 clover_add.setFont(Font.font("Tahoma", FontWeight.NORMAL, 16));
 grid.add(clover_add, 3, 4, 10, 5);
 //......................................................................................

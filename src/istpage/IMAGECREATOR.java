@@ -70,8 +70,8 @@ public class IMAGECREATOR {
        //address
        Font address = new Font("Courier", Font.BOLD ,10);
        g.setFont(address); 
-     g.drawString(cust_detail_form.cloverleaf_addd1, 150, 72);
-     g.drawString(cust_detail_form.cloverleaf_addd2, 100, 84);
+     g.drawString(cust_detail_form.addd1, 150, 72);
+     g.drawString(cust_detail_form.addd2, 100, 84);
       
        
     //...customer.........................
